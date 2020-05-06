@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
 RUN npm install -g --unsafe-perm homebridge
 RUN npm i homebridge-tuya-web -g
 
+# copy the homebridge config file
 COPY config.json ~/.homebridge/config.json
 
 # start homebridge
