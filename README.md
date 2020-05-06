@@ -1,2 +1,2 @@
 # Balena-Homekit-Bridge
-Homebridge running on a container on Balena OS
+Homebridge running on a docker container on Balena OS
